@@ -20,7 +20,8 @@ def get_filters():
     while True:
         city = input('Which city would you like to analyze?\n Chicago, New York City or Washington\n').lower()
         if city not in ('chicago', 'new york city','washington'):
-           print('Your city selection was not recognized. Please try again.')
+           print('Unfortunately, we could not recognize the city you inputted. Please try again.')
+	   print('Note: The only cities you can select are Chicago, New York City, and Washington.') 
            continue
         else:
             break
@@ -29,7 +30,7 @@ def get_filters():
     while True:
         month = input('Which month would you like to analyze?\n January, February, March, April, May, or June\n').lower()
         if month not in ('january', 'february', 'march', 'april', 'may', 'june'):
-            print('Your month selection was not recognized. Please try again.')
+            print('Unfortunately, we could not recognize the month you inputted. Please try again.')
             continue
         else:
             break
@@ -38,7 +39,7 @@ def get_filters():
     while True:
         day = input('What day of the week would you like to analyze?\n Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday\n').lower()
         if day not in ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'):
-            print('Your weekday selection was not recognized. Please try again.')
+            print('Unfortunately, we could not recognize the day of the week you inputted. Please try again.')
             continue 
         else:
             break
@@ -168,12 +169,12 @@ def user_stats(df):
  
     # TO DO: Display earliest, most recent, and most common year of birth
     try:
-        earliest = df['Birth Year'].min()
         recent = df['Birth Year'].max()
         common = df['Birth Year'].value_counts().keys()[0]
-        print(f'The earliest birth year is {earliest}')
-        print(f'The most recent birth year is {recent}')
+	earliest = df['Birth Year'].min()
+	print(f'The most recent birth year is {recent}')
         print(f'The most common birth year is {common}')
+        print(f'The earliest birth year is {earliest}')
     except:
         print('There is no birth year for this column.')
     
