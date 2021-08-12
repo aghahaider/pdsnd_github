@@ -4,7 +4,9 @@
 This project was created on 8/10/2021 and last updated on 8/12/2021.
 
 ### Description
-This project explores US Bikeshare Data in the ciites of Chicago, New York City, and Washington. Users can input which city, month, and day of the week they'd like to explore data in. The output includes:
+This project explores US Bikeshare Data in the ciites of Chicago, New York City, and Washington. Users can input which city, month, and day of the week they'd like to explore data in. 
+
+The output includes the following:
 1) The most frequent times of travel (month, day of the week, and hour).
 2) The most popular stations and trips (start station, end station, and the combination).
 3) The trip duration (in seconds).
