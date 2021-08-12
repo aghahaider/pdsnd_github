@@ -13,10 +13,7 @@ The output includes the following:
 4) User statistics (subscriber vs customers, male vs female, earliest birth year, most recent birth year, and most common birth year). 
 
 ### Files used
-bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+bikeshare.py, chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
 Udacity
