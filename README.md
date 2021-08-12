@@ -1,17 +1,20 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+### Exploring Bikeshare Data
 
 ### Date created
-Include the date you created this project and README file.
-
-### Project Title
-Replace the Project Title
+This project was created on 8/10/2021 and last updated on 8/12/2021.
 
 ### Description
-Describe what your project is about and what it does
+This project explores US Bikeshare Data in the ciites of Chicago, New York City, and Washington. Users can input which city, month, and day of the week they'd like to explore data in. The output includes:
+1) The most frequent times of travel (month, day of the week, and hour).
+2) The most popular stations and trips (start station, end station, and the combination).
+3) The trip duration (in seconds).
+4) User statistics (subscriber vs customers, male vs female, earliest birth year, most recent birth year, and most common birth year). 
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity
